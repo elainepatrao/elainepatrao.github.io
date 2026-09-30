@@ -12,6 +12,14 @@ website:
         text: Projects
       - href: about.qmd
         text: About
+    right:
+      - icon: github
+        href: https://github.com/elainepatrao
+        aria-label: GitHub
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/elaine-patrao
+        aria-label: LinkedIn
 
 format:
   html:
