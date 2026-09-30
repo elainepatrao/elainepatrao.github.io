@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+I work at the intersection of organizational effectiveness, behavioral science, and workforce analytics.
+
+This portfolio documents selected analytics and visualization projects using Python, Jupyter, and Tableau.

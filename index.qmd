@@ -1,0 +1,18 @@
+---
+title: "Elaine Patrao"
+---
+
+# People, Organizations & Analytics
+
+I combine organizational psychology, behavioral science, workforce analytics, and data to understand how people and organizations perform.
+
+## Selected Work
+
+### Workforce Analytics
+Using Python and workforce data to identify patterns and generate actionable organizational insights.
+
+### Employee Listening & Sentiment Analysis
+Using Python, NLP, and data visualization to analyze employee feedback.
+
+### Talent Analytics
+Translating workforce and talent data into decision-ready insights and visualizations.
