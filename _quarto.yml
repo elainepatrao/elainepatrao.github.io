@@ -1,9 +1,14 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "projects/**/*.qmd"
+    - "!projects/**/notebooks/"
 
 website:
   title: "Elaine Patrao"
+
   navbar:
     left:
       - href: index.qmd
@@ -12,6 +17,7 @@ website:
         text: Projects
       - href: about.qmd
         text: About
+
     right:
       - icon: github
         href: https://github.com/elainepatrao
@@ -24,4 +30,4 @@ website:
 format:
   html:
     theme: cosmo
-    toc: true
+    toc: true    

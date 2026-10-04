@@ -2,20 +2,10 @@
 title: "Projects"
 ---
 
-## Workforce Analytics
+## Employee Attrition: Workforce Risk Analysis
 
-Python • Pandas • Statistical Analysis
+**Python · Workforce Analytics · Statistical Analysis · Tableau**
 
-Coming soon.
+A workforce analytics case study examining where employee attrition is concentrated and which work, career, and employee-experience factors are associated with elevated turnover.
 
-## Employee Listening & Sentiment Analysis
-
-Python • NLP • Tableau
-
-Coming soon.
-
-## Talent Analytics Dashboard
-
-Tableau • Data Visualization • Workforce Analytics
-
-Coming soon.
+[View case study →](projects/employee-attrition/index.qmd)

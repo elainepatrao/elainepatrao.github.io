@@ -1,38 +1,101 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "projects/employee-attrition/index.html",
+    "href": "projects/employee-attrition/index.html",
+    "title": "Employee Attrition: Workforce Risk Analysis",
     "section": "",
-    "text": "Python • Pandas • Statistical Analysis\nComing soon."
+    "text": "This case study analyzes a fictional workforce of 1,470 employees to explore where employee attrition is concentrated and which workforce characteristics are associated with higher turnover.\nOverall attrition was 16.1%, but the pattern was not evenly distributed across the organization. Attrition was particularly elevated among Sales Representatives, Level 1 employees, employees working overtime, frequent business travelers, and employees reporting lower levels of job involvement and workplace satisfaction.\nMultivariate analysis showed that several of these relationships remained after accounting for other workforce characteristics, suggesting that workload, travel requirements, employee experience, career stage, and commute burden warrant deeper organizational investigation.\nRather than treating the results as causal, this case study uses the analysis to identify where HR leaders could focus further diagnosis and targeted intervention."
   },
   {
-    "objectID": "projects.html#workforce-analytics",
-    "href": "projects.html#workforce-analytics",
-    "title": "Projects",
+    "objectID": "projects/employee-attrition/index.html#executive-summary",
+    "href": "projects/employee-attrition/index.html#executive-summary",
+    "title": "Employee Attrition: Workforce Risk Analysis",
     "section": "",
-    "text": "Python • Pandas • Statistical Analysis\nComing soon."
+    "text": "This case study analyzes a fictional workforce of 1,470 employees to explore where employee attrition is concentrated and which workforce characteristics are associated with higher turnover.\nOverall attrition was 16.1%, but the pattern was not evenly distributed across the organization. Attrition was particularly elevated among Sales Representatives, Level 1 employees, employees working overtime, frequent business travelers, and employees reporting lower levels of job involvement and workplace satisfaction.\nMultivariate analysis showed that several of these relationships remained after accounting for other workforce characteristics, suggesting that workload, travel requirements, employee experience, career stage, and commute burden warrant deeper organizational investigation.\nRather than treating the results as causal, this case study uses the analysis to identify where HR leaders could focus further diagnosis and targeted intervention."
   },
   {
-    "objectID": "projects.html#employee-listening-sentiment-analysis",
-    "href": "projects.html#employee-listening-sentiment-analysis",
-    "title": "Projects",
-    "section": "Employee Listening & Sentiment Analysis",
-    "text": "Employee Listening & Sentiment Analysis\nPython • NLP • Tableau\nComing soon."
+    "objectID": "projects/employee-attrition/index.html#business-question",
+    "href": "projects/employee-attrition/index.html#business-question",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Business Question",
+    "text": "Business Question\nWhere is attrition concentrated in the workforce, what factors are associated with employee turnover, and where should HR leaders investigate or intervene first?\n\nAnalytical Questions\n\nWhat is the overall level of attrition?\nWhich workforce segments experience disproportionately high attrition?\nWhich work, career, and employee-experience factors are associated with attrition?\nWhich relationships remain after accounting for other workforce characteristics?\nWhat organizational questions and actions should leaders consider based on these patterns?"
   },
   {
-    "objectID": "projects.html#talent-analytics-dashboard",
-    "href": "projects.html#talent-analytics-dashboard",
-    "title": "Projects",
-    "section": "Talent Analytics Dashboard",
-    "text": "Talent Analytics Dashboard\nTableau • Data Visualization • Workforce Analytics\nComing soon."
+    "objectID": "projects/employee-attrition/index.html#dataset",
+    "href": "projects/employee-attrition/index.html#dataset",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Dataset",
+    "text": "Dataset\nThis case study uses the IBM HR Analytics Employee Attrition & Performance dataset, a fictional dataset created for analytical and educational purposes.\nThe dataset contains:\n\n1,470 employee records\n35 original variables\nDemographic, job, compensation, tenure, satisfaction, travel, and work-context measures\nA binary attrition outcome indicating whether an employee stayed or left\n\nBecause the dataset is fictional and cross-sectional, findings should be interpreted as analytical associations rather than evidence of causal relationships."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I work at the intersection of organizational effectiveness, behavioral science, and workforce analytics.\nThis portfolio documents selected analytics and visualization projects using Python, Jupyter, and Tableau."
+    "objectID": "projects/employee-attrition/index.html#analytical-approach",
+    "href": "projects/employee-attrition/index.html#analytical-approach",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Analytical Approach",
+    "text": "Analytical Approach\nThe analysis followed five stages:\n\nData quality and preparation\nAssessed missing values, constant fields, identifiers, and variable types.\nWorkforce segmentation\nCompared attrition rates across departments, job roles, and job levels.\nBivariate analysis\nExamined relationships between attrition and work context, employee experience, career characteristics, and demographic factors.\nStatistical analysis\nUsed chi-square tests, effect sizes, and odds ratios to assess the strength of observed relationships.\nMultivariate analysis\nUsed logistic regression to examine which associations remained after accounting for other workforce characteristics.\n\n\nTools\nPython · Pandas · SciPy · Statsmodels · Matplotlib · Jupyter · Tableau Public · Quarto"
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#workforce-attrition-overview",
+    "href": "projects/employee-attrition/index.html#workforce-attrition-overview",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Workforce Attrition Overview",
+    "text": "Workforce Attrition Overview\nThe fictional workforce includes 1,470 employees, of whom 237 left the organization, resulting in an overall attrition rate of 16.1%.\n\n\n\nWorkforce\nAttritions\nAttrition Rate\n\n\n\n\n1,470\n237\n16.1%\n\n\n\nAttrition, however, was not evenly distributed across the organization. Several workforce segments experienced substantially higher turnover than the organizational average.\n\nAttrition by Job Role\n\n\n\nAttrition rates by job role. The dashed line represents the organizational average of 16.1%.\n\n\nThe largest concentration appeared among Sales Representatives, where attrition reached 39.8%, approximately 2.5 times the organizational average. Laboratory Technicians and Human Resources roles also experienced above-average attrition.\nThis suggests that attrition is concentrated within particular workforce segments rather than reflecting a uniform organization-wide pattern.\n\n\nAttrition by Job Level\n\n\n\nAttrition rates by job level.\n\n\nAttrition was also disproportionately concentrated among more junior employees. Level 1 employees experienced a 26.3% attrition rate, compared with the organizational average of 16.1%.\nHigher job levels generally showed lower observed attrition, although the pattern was not perfectly linear across levels. This suggests that career stage warrants further investigation alongside role, workload, employee experience, and other workforce characteristics."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#what-is-associated-with-attrition",
+    "href": "projects/employee-attrition/index.html#what-is-associated-with-attrition",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "What Is Associated With Attrition?",
+    "text": "What Is Associated With Attrition?\nThe next stage examined whether work demands and employee-experience measures were associated with higher observed attrition.\n\nOvertime\n\n\n\nAttrition by overtime status.\n\n\nEmployees working overtime experienced 30.5% attrition, compared with 10.4% among employees not working overtime.\nThe unadjusted odds of attrition were approximately 3.8 times higher among employees working overtime.\n\n\nBusiness Travel\n\n\n\nAttrition by business travel frequency.\n\n\nFrequent business travelers experienced 24.9% attrition, compared with 15.0% among employees who traveled rarely and 8.0% among non-travelers.\nThis suggests that travel intensity may warrant further investigation alongside workload and role design.\n\n\nJob Involvement\n\n\n\nAttrition by job involvement level.\n\n\nEmployees reporting the lowest level of job involvement experienced 33.7% attrition, compared with 9.0% among those reporting the highest level.\nSimilar patterns were also observed for environment satisfaction, job satisfaction, and work-life balance, suggesting that employee experience may be an important part of the attrition picture."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#adjusted-analysis",
+    "href": "projects/employee-attrition/index.html#adjusted-analysis",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Adjusted Analysis",
+    "text": "Adjusted Analysis\nDescriptive patterns can overlap. For example, younger employees may also be more junior, earn less, have shorter tenure, and work in different roles.\nTo examine which relationships remained after accounting for other workforce characteristics, a multivariate logistic regression model was estimated using work-context, career-stage, employee-experience, age, tenure, and commute variables.\n\n\n\nSelected adjusted odds ratios from the logistic regression model. Values above 1 indicate higher odds of attrition relative to the reference group; values below 1 indicate lower odds.\n\n\n\nWhat Remained Important?\nOvertime remained one of the strongest signals. Employees working overtime had approximately 5.3 times the adjusted odds of attrition compared with employees not working overtime.\nBusiness travel also remained strongly associated with attrition. Frequent travelers had approximately 5.3 times the adjusted odds compared with employees who did not travel, while employees who traveled rarely had approximately 2.4 times the odds.\nEmployee experience continued to matter after adjustment. Higher levels of job involvement, environment satisfaction, job satisfaction, and work-life balance were generally associated with lower attrition odds relative to the lowest rating levels.\nAge and commute distance retained smaller but persistent associations. Each additional year of age was associated with approximately 3.6% lower odds of attrition, while each additional unit of distance from home was associated with approximately 3.8% higher odds.\n\n\nA More Nuanced Tenure Story\nEmployees who left had shorter company tenure on average: 5.1 years compared with 7.4 years among employees who stayed.\nHowever, after other workforce characteristics were taken into account, Years at Company was no longer clearly associated with attrition (p = .059).\nThis suggests that the initial tenure difference may partly reflect other characteristics such as career stage, work demands, employee experience, and age rather than tenure alone.\n\n\nModel Diagnostic\nThe adjusted model showed meaningful in-sample discrimination (ROC-AUC = 0.82) and a McFadden pseudo-R² of 0.237.\nThese diagnostics indicate that the included workforce characteristics collectively distinguish leavers from stayers reasonably well within this fictional dataset. However, performance was measured on the same data used to estimate the model and should not be interpreted as validated predictive accuracy."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#key-findings",
+    "href": "projects/employee-attrition/index.html#key-findings",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\nThe analysis suggests that attrition is concentrated within specific workforce segments and is associated with a combination of work demands, employee experience, career stage, and personal context.\n\n1. Attrition is concentrated rather than organization-wide\nOverall attrition was 16.1%, but rates varied substantially across roles and job levels.\nSales Representatives experienced 39.8% attrition, approximately 2.5 times the organizational average, while Level 1 employees experienced 26.3% attrition.\nThis suggests that retention challenges may be more effectively addressed through targeted workforce diagnosis rather than broad organization-wide interventions.\n\n\n2. Work demands are among the strongest signals\nEmployees working overtime experienced 30.5% attrition, compared with 10.4% among employees not working overtime.\nAfter accounting for other workforce characteristics, overtime remained strongly associated with attrition, with approximately 5.3 times the adjusted odds of leaving.\nFrequent business travel showed a similarly strong adjusted association.\nThese results do not establish that overtime or travel causes attrition, but they suggest that workload, scheduling, staffing capacity, travel expectations, and role design warrant closer investigation.\n\n\n3. Employee experience remains relevant after adjustment\nLower job involvement, environment satisfaction, job satisfaction, and work-life balance were associated with higher attrition.\nSeveral of these relationships persisted after accounting for career stage, work context, age, tenure, and other factors.\nThis suggests that retention cannot be understood solely through compensation or demographic characteristics. The day-to-day employee experience may also play an important role.\n\n\n4. Career-stage patterns are more complex than they first appear\nEmployees who left were generally younger, lower paid, less experienced, and shorter-tenured than employees who remained.\nHowever, company tenure became much less important once other workforce characteristics were considered.\nThis suggests that apparent early-tenure attrition may partly reflect underlying differences in job level, workload, employee experience, career stage, or other organizational conditions.\n\n\n5. Commute burden may be a secondary consideration\nEmployees who left lived farther from work on average, and distance from home remained associated with attrition after adjustment.\nThe effect was smaller than the associations observed for overtime, travel, and employee experience, but it suggests that location, flexibility, and commuting expectations may warrant consideration as part of a broader retention diagnosis."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#business-implications",
+    "href": "projects/employee-attrition/index.html#business-implications",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Business Implications",
+    "text": "Business Implications\nThe findings point toward a targeted diagnostic approach rather than a single retention solution.\n\n\n\n\n\n\n\n\nAnalytical Finding\nLeadership Question\nPotential Next Step\n\n\n\n\nHigh Sales Representative and Level 1 attrition\nWhat is different about the work and employee experience in these populations?\nConduct targeted employee listening, exit analysis, and manager interviews\n\n\nStrong overtime association\nIs overtime driven by understaffing, workload peaks, role design, scheduling, or manager practices?\nExamine overtime concentration by role, team, manager, and business cycle\n\n\nHigh attrition among frequent travelers\nAre travel requirements sustainable, predictable, and within employee control?\nReview travel expectations and segment patterns by role and tenure\n\n\nLower involvement and satisfaction\nWhich workplace conditions distinguish higher- and lower-scoring employee groups?\nCombine survey data with qualitative listening and manager-level analysis\n\n\nJunior and early-career concentration\nAre career expectations, development opportunities, and mobility paths clear?\nReview onboarding, career pathways, internal mobility, and manager support\n\n\nDistance from home\nDoes commute burden interact with flexibility or scheduling expectations?\nExamine location, work arrangement, and schedule flexibility patterns"
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#recommended-next-steps",
+    "href": "projects/employee-attrition/index.html#recommended-next-steps",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Recommended Next Steps",
+    "text": "Recommended Next Steps\nIf this were a live organizational diagnosis, the analysis would be used to guide the next phase of investigation rather than to prescribe immediate solutions.\nRecommended next steps would include:\n\nPrioritize high-attrition populations\nBegin with Sales Representatives, Level 1 employees, and other segments materially above the organizational baseline.\nInvestigate workload and role design\nDetermine whether overtime and travel reflect staffing gaps, demand volatility, role expectations, scheduling practices, or other operating-model issues.\nAdd employee voice\nCombine quantitative workforce data with engagement comments, pulse surveys, stay interviews, exit feedback, and manager interviews to understand the experience behind the patterns.\nExamine manager and team variation\nAnalyze whether attrition and employee-experience patterns are concentrated within particular teams or reporting structures.\nAssess career and mobility experience\nExplore whether junior employees have clear development pathways, sufficient manager support, and realistic opportunities for internal movement.\nTest interventions rather than assume causality\nWhere practical, pilot targeted changes and measure whether workforce outcomes improve before scaling interventions more broadly."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#interactive-tableau-dashboard",
+    "href": "projects/employee-attrition/index.html#interactive-tableau-dashboard",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Interactive Tableau Dashboard",
+    "text": "Interactive Tableau Dashboard\nExplore the workforce patterns interactively using the dashboard below. Use the Department filter or select a job role to examine how attrition patterns change across workforce segments."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#analytical-limitations",
+    "href": "projects/employee-attrition/index.html#analytical-limitations",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Analytical Limitations",
+    "text": "Analytical Limitations\nThis case study uses a fictional, cross-sectional workforce dataset and is intended to demonstrate an analytical approach rather than make claims about an actual organization.\nThe analysis identifies associations rather than causal relationships. Important factors such as manager quality, labor-market conditions, organizational change, employee comments, team climate, external opportunities, and longitudinal workforce history are not available in the dataset.\nThe logistic regression model was evaluated on the same data used to estimate it. Its ROC-AUC therefore represents in-sample discrimination and should not be interpreted as validated predictive performance.\nThe findings should be viewed as signals that would guide further organizational diagnosis, not as evidence that any single factor directly causes attrition."
+  },
+  {
+    "objectID": "projects/employee-attrition/index.html#technical-details",
+    "href": "projects/employee-attrition/index.html#technical-details",
+    "title": "Employee Attrition: Workforce Risk Analysis",
+    "section": "Technical Details",
+    "text": "Technical Details\nThis case study was developed using Python and Jupyter for data preparation, exploratory analysis, statistical testing, and logistic regression; Tableau Public for interactive visualization; and Quarto for publishing.\n\nMethods\n\nData quality and variable assessment\nWorkforce segmentation and attrition-rate analysis\nChi-square tests for categorical relationships\nCohen’s d for numeric group differences\nUnadjusted odds ratios\nMultivariate logistic regression\nModel diagnostics using McFadden pseudo-R² and ROC-AUC\n\n\n\nSource Code\nThe full analysis notebook and project files are available in the GitHub repository.\nView the analysis notebook on GitHub\nView this project on GitHub"
   },
   {
     "objectID": "index.html",
@@ -47,5 +110,26 @@
     "title": "Elaine Patrao",
     "section": "",
     "text": "Using Python and workforce data to identify patterns and generate actionable organizational insights.\n\n\n\nUsing Python, NLP, and data visualization to analyze employee feedback.\n\n\n\nTranslating workforce and talent data into decision-ready insights and visualizations."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I work at the intersection of organizational effectiveness, behavioral science, and workforce analytics.\nThis portfolio documents selected analytics and visualization projects using Python, Jupyter, and Tableau."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Python · Workforce Analytics · Statistical Analysis · Tableau\nA workforce analytics case study examining where employee attrition is concentrated and which work, career, and employee-experience factors are associated with elevated turnover.\nView case study →"
+  },
+  {
+    "objectID": "projects.html#employee-attrition-workforce-risk-analysis",
+    "href": "projects.html#employee-attrition-workforce-risk-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "Python · Workforce Analytics · Statistical Analysis · Tableau\nA workforce analytics case study examining where employee attrition is concentrated and which work, career, and employee-experience factors are associated with elevated turnover.\nView case study →"
   }
 ]
